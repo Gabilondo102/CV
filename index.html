@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>@import "https://fonts.googleapis.com/css2?family=Alkalami&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap";
+body {
+  margin: 0;
+  font-family: Dosis, sans-serif;
+  font-size: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+
+#navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+#navbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  display: block;
+}
+
+#navbar a:nth-child(2) {
+  margin-right: 20%;
+}
+
+#navbar a:hover {
+  color: #000;
+  background-color: #ddd;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#logo {
+  float: left;
+  margin-left: 2%;
+  position: absolute;
+}
+
+#perfil {
+  width: 80%;
+}
+
+#descripcion {
+  float: right;
+  text-align: center;
+  width: 16.97%;
+  color: #fff;
+  background-color: #333;
+  padding-bottom: 31.1%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 7.8%;
+}
+
+#description p {
+  margin: 20px;
+}
+
+.contenedor {
+  text-align: center;
+  display: flex;
+}
+
+.contenedor img {
+  border: 1px solid #000;
+}
+
+#img1 {
+  width: 50%;
+  margin-right: 5%;
+}
+
+h3 {
+  text-align: center;
+}
+
+#titulo1 {
+  margin-left: 12.5%;
+  margin-right: 45%;
+}
+
+.trabajo {
+  width: 75%;
+  text-align: left;
+  border-left: 3px solid #8a2be2;
+}
+
+.trabajo p {
+  margin-left: 5%;
+}
+
+#herramientas {
+  text-align: center;
+  display: flex;
+}
+
+#herramientas img {
+  width: 100px;
+  height: 100px;
+  margin-left: 27%;
+}
+
+.titulo {
+  color: #8a2be2;
+  font-family: Alkalami, serif;
+  font-style: italic;
+}
+
+#titeducacion {
+  margin-right: 15%;
+}
+
+.contenedor div h4 {
+  margin-right: 5%;
+}
+
+#descrip {
+  text-align: center;
+  color: #8a2be2;
+  font-weight: bold;
+}
+
+.idioma {
+  float: left;
+  width: 30%;
+  text-align: center;
+  color: #8a2be2;
+}
+
+.importante {
+  font-weight: bold;
+}
+
+#descripcion img {
+  float: left;
+  height: 42%;
+  width: 42.5%;
+}
+
+.contact {
+  color: #000;
+}
+
+</style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="#" id="logo">Gabriel Llompart</a>
+        <a href="#contactame">Contactame</a>
+        <a href="#sobremi">Sobre Mí</a>
+        <a href="#educacion">Educación</a>
+        <a href="#experiencia">Experiencia</a>
+        <a class="active" href="#portofolio">Portofolio</a>
+    </nav>
+
+    <main class="content">
+        <amp-img src="/perfil.11fbc8e9.webp" width="100%" height="100%" layout="responsive" id="perfil">
+        <div id="descripcion">
+            <h3>Hola! <br>
+                Mi nombre es Gabriel Llompart</h3>
+            <p>Un diseñador web independiente experimentado, inspirado por la gente que ve a su alrededor todos los
+                días.</p>
+            <a href="https://www.instagram.com/gabill10/?next=%2F">
+                <amp-img src="/instagram.6c80c41f.webp" width="100%" height="100%" layout="responsive">
+            </amp-img></a>
+            <a href="https://github.com/Gabilondo102">
+                <amp-img src="/github.97f05183.webp" width="100%" height="100%" layout="responsive">
+            </amp-img></a>
+        </div>
+        <h3 class="titulo" id="portofolio">Revisa mis proyectos realizados</h3>
+        <div class="contenedor">
+            <img id="img1" src="/maze.f08e7b2f.webp" alt="Proyecto_Laberinto" width="100%" height="100%">
+            <img id="img2" src="/figuras.42dc4f43.webp" alt="Proyecto_Figuras" width="100%" height="100%">
+        </div>
+        <div class="contenedor">
+            <h4 class="titulo" id="titulo1">Maze</h4>
+            <h4 class="titulo">Figuras</h4>
+        </div>
+        <div class="contenedor">
+            <div>
+                <h4 class="titulo" id="experiencia">Experiencia de Trabajo</h4>
+            </div>
+            <div class="trabajo">
+                <p>
+                    2022 <br>
+                    Auxiliar de Cajas, Carrefour
+                </p>
+                <p>
+                    2019 - 2021 <br>
+                    Monitor de Actividades Físicas, OpenMarratxí
+                </p>
+            </div>
+        </div>
+        <h3 class="titulo">Herramientas que utilizo cuando trabajo</h3>
+        <div id="herramientas">
+            <amp-img src="/visual-studio.4201c182.webp" width="100%" height="100%" layout="responsive">
+            <amp-img src="/intellij.3da2b6a1.webp" width="100%" height="100%" layout="responsive">
+        </amp-img></amp-img></div>
+        <div class="contenedor">
+            <div>
+                <h4 class="titulo" id="educacion">Educación</h4>
+            </div>
+            <div class="trabajo">
+                <p>
+                    2019 - 2020 <br>
+                    Formación Profesional Grado Medio Aplicaciones Web, Es Liceu
+                </p>
+                <p>
+                    2013 - 2017 <br>
+                    Educación Secundaria Obligatoria, IES Marratxí
+                </p>
+            </div>
+        </div>
+        <h3 class="titulo" id="sobremi">Conoceme mejor!</h3>
+        <p id="descrip">Un desarrollador de 21 años de Palma de Mallorca</p>
+        <p>Desde mi adolescencia, solía pasar mucho tiempo libre jugando en el ordenador, montando ordenadores de mis
+            amigos. Y en los últimos años he usado IntellIJ cada vez más, y ahora hago programas sencillos. Me gradué en
+            2020 con el FP de Grado Medio de Aplicaciones Web y desde entonces he mejorado mucho.</p>
+        <p>Creo que el talento es un mito que definitivamente puede impedirnos alcanzar nuestras metas creativas. Creo
+            que la práctica nos hace perfectos y que la perfección no es más que imaginación. Asimismo, creo en la
+            comunidad y la colaboración por encima de la competencia, por lo que ayudo a las personas a administrar sus
+            negocios de la mejor manera. Solía ​combinar numerosos proyectos independientes con mis trabajos internos
+            durante los últimos años, y ahora mi tiempo está completamente dedicado a tareas independientes.</p>
+        <div class="contenedor">
+            <div class="idioma">
+                <p class="importante">Inglés</p>
+                <p class="idioma-2">B1</p>
+            </div>
+            <div class="idioma">
+                <p class="importante">Español</p>
+                <p class="idioma-2">Nativo</p>
+            </div>
+            <div class="idioma">
+                <p class="importante">Catalán</p>
+                <p class="idioma-2">Nativo</p>
+            </div>
+        </div>
+        <h3 class="titulo" id="contactame">Mis contactos</h3>
+        <div class="container">
+            <div class="idioma">
+                <p class="importante">Correo</p>
+                <p class="contact">gllompartlopez@gmail.com</p>
+            </div>
+            <div class="idioma">
+                <p class="importante">Telefono</p>
+                <p class="contact">+34 684 386 667</p>
+            </div>
+            <div class="idioma">
+                <p class="importante">Dirección</p>
+                <p class="contact">C/ Joan Deia Escultor, 26, Mallorca, España</p>
+            </div>
+        </div>
+    </amp-img></main>
+    <script>window.onscroll = function() {
+    myFunction();
+};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+    if (window.pageYOffset >= sticky) navbar.classList.add("sticky");
+    else navbar.classList.remove("sticky");
+}
+
+</script>
+<script src="/Llompart_López_Gabi_CV.3464ddca.js"></script></body>
+
+</html>
